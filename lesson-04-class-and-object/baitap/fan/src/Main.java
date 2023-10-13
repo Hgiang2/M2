@@ -71,7 +71,6 @@ public class Main {
                         default:
                             System.out.println("Invalid choice!");
                             break;
-
                     }
                 case 4:
                     System.out.println(fan);
