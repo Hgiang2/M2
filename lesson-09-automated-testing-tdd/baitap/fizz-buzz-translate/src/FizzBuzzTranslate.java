@@ -59,9 +59,11 @@ public class FizzBuzzTranslate {
         } else {
             for (int i = 0; i < 10; i++) {
                 if (dozen == i) result += dozensFrom20[i];
+                break;
             }
             for (int i = 0; i < 10; i++) {
                 if (unit == i) result += units[i];
+                break;
             }
         }
         return result;
